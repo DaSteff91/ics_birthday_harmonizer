@@ -53,6 +53,7 @@ class ICSGenerator:
         # Metadata and State
         year_text = str(entry.birth_date.year) if entry.has_year else "Unknown"
         event.add("description", f"Born: {year_text}")
+        event.add("categories", ["Birthday"])
         event.add("transp", "TRANSPARENT")
         event.add("status", "CONFIRMED")
         event.add("class", "PUBLIC")
