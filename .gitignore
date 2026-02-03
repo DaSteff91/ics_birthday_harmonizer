@@ -29,3 +29,4 @@ coverage.xml
 data/input.ics
 data/input_real.ics
 test_parser.py
+data/output.ics
